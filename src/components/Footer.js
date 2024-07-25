@@ -4,22 +4,22 @@ const Footer = () => {
       <footer className="section footer">
         <ul className="footer-links">
           <li>
-            <a href="#home" className="footer-link">
+            <a href="#home" rel="noopener" className="footer-link">
               home
             </a>
           </li>
           <li>
-            <a href="#about" className="footer-link">
+            <a href="#about" rel="noopener" className="footer-link">
               about
             </a>
           </li>
           <li>
-            <a href="#services" className="footer-link">
+            <a href="#services" rel="noopener" className="footer-link">
               services
             </a>
           </li>
           <li>
-            <a href="#featured" className="footer-link">
+            <a href="#featured" rel="noopener" className="footer-link">
               featured
             </a>
           </li>
@@ -30,6 +30,7 @@ const Footer = () => {
               href="https://www.twitter.com"
               target="_blank"
               className="footer-icon"
+              rel="noreferrer"
             >
               <i className="fab fa-facebook"></i>
             </a>
@@ -39,6 +40,7 @@ const Footer = () => {
               href="https://www.twitter.com"
               target="_blank"
               className="footer-icon"
+              rel="noreferrer"
             >
               <i className="fab fa-twitter"></i>
             </a>
@@ -48,6 +50,7 @@ const Footer = () => {
               href="https://www.twitter.com"
               target="_blank"
               className="footer-icon"
+              rel="noreferrer"
             >
               <i className="fab fa-squarespace"></i>
             </a>
